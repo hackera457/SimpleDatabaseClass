@@ -6,6 +6,12 @@
  * @author Светлин Боболанов
  * 
  */
+ define('DBHOST','localhost');
+ define('DBUSER','root');
+ define('DBPASS','');
+ define('DBDBD','mydb');
+ 
+ 
 class Database {
 
     private $dbconn = NULL;
